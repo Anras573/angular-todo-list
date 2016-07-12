@@ -1,0 +1,26 @@
+.btn-group {
+  margin-bottom: 15px;
+}
+
+.done {
+  color: #888;
+  text-decoration: line-through;
+}
+
+li .edit {
+    display: none;
+}
+
+li.editing .view {
+	display: none;
+}
+
+li.editing .edit {
+	display: block;
+}
+
+.footer {
+  border-top: 1px solid #CECECE;
+  margin-top: 15px;
+  padding: 15px 0;
+}

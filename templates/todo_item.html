@@ -1,0 +1,5 @@
+<div class="view" ng-keyup="editTodo()">
+  <input type="checkbox" ng-model="todo.done"></input>
+  <span ng-class="{done: todo.done}">{{todo.text}}</span>
+  <button class="btn btn-danger btn-xs pull-right" ng-click="delete(todo, list)">Delete Todo</button>
+</div>
